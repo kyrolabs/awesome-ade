@@ -82,6 +82,7 @@ tmux turns out to be an excellent agent substrate: sessions survive disconnects,
 
 Native and Electron/Tauri apps. Better for diff review, multi-pane layouts and anything you want visible on a second monitor.
 
+- [Orca](https://github.com/stablyai/orca): Fan one prompt across several agents, each in its own git worktree, then compare and merge the winner. Ghostty-class terminals with infinite splits, SSH worktrees onto a remote box, native GitHub and Linear browsing, line-level annotation of AI diffs, a design mode that pipes a clicked DOM element into the prompt, and an `orca` CLI so agents can drive the workspace themselves. Desktop, mobile companion and VPS. ![GitHub Repo stars](https://img.shields.io/github/stars/stablyai/orca?style=social)
 - [Emdash](https://github.com/generalaction/emdash): Open-source ADE for running multiple coding agents in parallel, each task in its own git worktree. Local-first SQLite state, SSH to remote machines, and Linear/GitHub/Jira/GitLab ticket ingestion with PR creation and CI review built in. ![GitHub Repo stars](https://img.shields.io/github/stars/generalaction/emdash?style=social)
 - [Aperant](https://github.com/AndyMik90/Aperant): Runs up to 12 agent terminals simultaneously with an automated QA loop and merge-conflict resolution. ![GitHub Repo stars](https://img.shields.io/github/stars/AndyMik90/Aperant?style=social)
 - [superset](https://github.com/superset-sh/superset): Code editor built around running many agents at once rather than around a single cursor. ![GitHub Repo stars](https://img.shields.io/github/stars/superset-sh/superset?style=social)
@@ -113,6 +114,7 @@ The ADE stops being a place you sit and becomes a thing you check on. These brid
 - [Omnara](https://github.com/omnara-ai/omnara): Command centre for agents across web, mobile and terminal, with live notifications and permission prompts routed to you. ![GitHub Repo stars](https://img.shields.io/github/stars/omnara-ai/omnara?style=social)
 - [takopi](https://github.com/banteg/takopi): Telegram bridge that puts an agent session in a chat thread. ![GitHub Repo stars](https://img.shields.io/github/stars/banteg/takopi?style=social)
 - [ClaudeClaw](https://github.com/sbusso/claudeclaw): Persistent agent orchestrator as a Claude Code plugin — multi-channel routing (Slack, WhatsApp, Telegram), OS-level sandbox isolation, composable extensions, structured memory and webhook triggers. ![GitHub Repo stars](https://img.shields.io/github/stars/sbusso/claudeclaw?style=social)
+- [ADE](https://github.com/arul28/ADE): One workspace for Claude Code, Codex, Cursor, Factory Droid and OpenCode, with every chat and CLI session syncing in real time across macOS, Windows, iOS, web and terminal — start a thread on the desktop and finish it from another machine. ![GitHub Repo stars](https://img.shields.io/github/stars/arul28/ADE?style=social)
 
 ## Coding Agents (the engines)
 
@@ -234,6 +236,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [CLI Agent Orchestrator](https://github.com/awslabs/cli-agent-orchestrator) | 🪟 tmux | 🪟 tmux session | Many | AWS Labs, multi-CLI |
 | [dmux](https://github.com/standardagents/dmux) | 🪟 tmux | 🌲 worktree + 🪟 tmux | Many | One pane per task |
 | [amux](https://github.com/mixpeek/amux) | 🪟 tmux + 🌐 | 🪟 tmux session | Dozens | Single file, self-healing, phone dashboard |
+| [Orca](https://github.com/stablyai/orca) | 🖥️ Desktop + 📱 | 🌲 worktree (local + SSH) | Many, fan-out | Terminal splits, diff annotation, scriptable CLI |
 | [Emdash](https://github.com/generalaction/emdash) | 🖥️ Desktop | 🌲 worktree | Many | Ticket ingestion, PR + CI review, SSH remotes |
 | [Aperant](https://github.com/AndyMik90/Aperant) | 🖥️ Desktop | 🌲 worktree | Up to 12 | Automated QA loop, conflict resolution |
 | [Crystal](https://github.com/stravu/crystal) | 🖥️ Desktop | 🌲 worktree | Many | Side-by-side diff review |
@@ -248,6 +251,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [Open SWE](https://github.com/langchain-ai/open-swe) | 🌐 Web | 📦 cloud sandbox | Many | Async, issue-triggered |
 | [Happy](https://github.com/slopus/happy) | 📱 Mobile + 🌐 | — (client) | Many | E2E encrypted remote control |
 | [Omnara](https://github.com/omnara-ai/omnara) | 📱 Mobile + 🌐 | — (client) | Many | Permission prompts routed to phone |
+| [ADE](https://github.com/arul28/ADE) | 🖥️ + 📱 + ⌨️ + 🌐 | — (synced sessions) | Many | Real-time session sync across every device |
 
 ---
 
