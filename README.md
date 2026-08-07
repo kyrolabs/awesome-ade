@@ -98,6 +98,7 @@ Native and Electron/Tauri apps. Better for diff review, multi-pane layouts and a
 - [Dorothy](https://github.com/Charlie85270/Dorothy): Desktop app orchestrating multiple AI CLI agents (Claude Code, Codex, Gemini) simultaneously with automations, Kanban management, remote control and MCP servers. ![GitHub Repo stars](https://img.shields.io/github/stars/Charlie85270/Dorothy?style=social)
 - [Sculptor](https://github.com/imbue-ai/sculptor): Imbue's agent workspace running each session in a container so agents can execute freely without touching your machine. ![GitHub Repo stars](https://img.shields.io/github/stars/imbue-ai/sculptor?style=social)
 - [Termic](https://github.com/simion/termic): Spawns the real `claude`, `codex`, `agy`, `copilot` and `grok` binaries rather than vendor SDKs, so inference rides the Pro/Max plan you already pay for. One git worktree per agent, an optional per-workspace macOS sandbox cage, prompt broadcast to every agent at once, and a work-done indicator per pane. ![GitHub Repo stars](https://img.shields.io/github/stars/simion/termic?style=social)
+- [Tempest](https://github.com/tempestai-dev/tempest): Keeps a local code-knowledge graph shared across every parallel session, so five agents do not each re-read the codebase from scratch — the project reports up to 64% less context consumption and 58% fewer tool calls. Worktree and branch per agent, built-in diff and PR, and per-OS process isolation (Job Objects on Windows, Seatbelt on macOS, bubblewrap on Linux). Note that agents are spawned permission-skipping by default, toggleable in settings. ![GitHub Repo stars](https://img.shields.io/github/stars/tempestai-dev/tempest?style=social)
 
 ## Orchestrators — Web & Self-hosted
 
@@ -247,6 +248,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [Nimbalyst](https://github.com/nimbalyst/nimbalyst) | 🖥️ Desktop + 📱 | 🌲 worktree | Many | Visual WYSIWYG editors, red/green agent diffs |
 | [Arbor](https://github.com/penso/arbor) | 🖥️ Desktop | 🌲 worktree | Many | Native; worktrees, terminals, diffs only |
 | [Termic](https://github.com/simion/termic) | 🖥️ Desktop | 🌲 worktree + macOS sandbox | Many | Real CLIs, no SDK; prompt broadcast |
+| [Tempest](https://github.com/tempestai-dev/tempest) | 🖥️ Desktop | 🌲 worktree + 📦 process isolation | Many | Shared code-knowledge graph cuts token spend |
 | [Crystal](https://github.com/stravu/crystal) | 🖥️ Desktop | 🌲 worktree | Many | Side-by-side diff review |
 | [mux](https://github.com/coder/mux) | 🖥️ Desktop | 🌲 worktree | Many | From Coder |
 | [Sculptor](https://github.com/imbue-ai/sculptor) | 🖥️ Desktop | 📦 container | Many | Agents run fully sandboxed |
