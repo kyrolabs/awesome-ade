@@ -196,7 +196,9 @@ Parallel agents burn tokens in parallel. These tell you where they went.
 Agents generate more diff than a human can read. The bottleneck moves to review.
 
 - [PR-Agent](https://github.com/The-PR-Agent/pr-agent): Automated PR description, review and code suggestions, runnable from CI or as a bot on every pull request. ![GitHub Repo stars](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=social)
-- [CodeLayer (HumanLayer)](https://github.com/humanlayer/humanlayer): Approval gates in the agent loop, so risky tool calls pause for a human instead of proceeding. ![GitHub Repo stars](https://img.shields.io/github/stars/humanlayer/humanlayer?style=social)
+- [claude-code-security-review](https://github.com/anthropics/claude-code-security-review): Anthropic's security-focused review Action — reasons about the semantics of a diff rather than pattern-matching it, with false-positive filtering. ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-code-security-review?style=social)
+
+For human-in-the-loop approval gates inside the agent loop itself, see [CodeLayer (HumanLayer)](#orchestrators--desktop) above.
 
 ## Protocols & Standards
 
