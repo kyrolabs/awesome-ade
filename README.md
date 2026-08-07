@@ -27,6 +27,7 @@ Maintained by [KyroLabs](https://github.com/kyrolabs). See also: [Awesome Agents
 - [Orchestrators — Web & Self-hosted](#orchestrators--web--self-hosted)
 - [Remote & Mobile Control](#remote--mobile-control)
 - [Coding Agents (the engines)](#coding-agents-the-engines)
+- [Harnesses & Agent SDKs](#harnesses--agent-sdks)
 - [Editor-native Agents](#editor-native-agents)
 - [Autonomous & CI Runners](#autonomous--ci-runners)
 - [Isolation & Sandboxing](#isolation--sandboxing)
@@ -49,7 +50,7 @@ Most tools in this list sit on exactly one of five layers. Knowing which layer y
 
 | Layer | What it does | Typical examples |
 | --- | --- | --- |
-| **Harness** | The agent loop itself: model calls, tool use, permissions | OpenCode, Codex CLI, Gemini CLI, Pi, Goose |
+| **Harness** | The agent loop itself: model calls, tool use, permissions | OpenCode, Codex CLI, Gemini CLI, Pi, Goose, Claude Agent SDK |
 | **Orchestrator** | Runs many harnesses in parallel, tracks their state | Claude Squad, Emdash, Vibe Kanban, herdr |
 | **Isolation** | Keeps parallel agents from stepping on each other | git worktrees, container-use, microsandbox, E2B |
 | **Surface** | How a human watches and steers — TUI, desktop, web, phone | agent-deck, Crystal, Happy, VibeTunnel |
@@ -128,15 +129,32 @@ The harnesses that orchestrators drive. Pick the orchestrator for the workflow, 
 - [OpenCode](https://github.com/anomalyco/opencode): The open-source coding agent — keyboard-driven TUI, build/plan agent modes, LSP integration for 20+ languages, MCP support, and 75+ providers plus local models via Ollama and LM Studio. Client-server architecture lets multiple frontends attach to one server. ![GitHub Repo stars](https://img.shields.io/github/stars/anomalyco/opencode?style=social)
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli): Google's open-source terminal agent with a large context window and built-in tooling. ![GitHub Repo stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=social)
 - [Codex CLI](https://github.com/openai/codex): OpenAI's local coding agent, with sandboxed execution modes and headless/CI operation. ![GitHub Repo stars](https://img.shields.io/github/stars/openai/codex?style=social)
-- [Pi](https://github.com/earendil-works/pi): Agent toolkit — unified LLM API, agent loop, TUI and coding CLI — built on a deliberately tiny system prompt with lazily-loaded skills, and designed to be forked and rewired. ![GitHub Repo stars](https://img.shields.io/github/stars/earendil-works/pi?style=social)
-- [Goose](https://github.com/aaif-goose/goose): Extensible on-machine agent that installs, executes and edits rather than only suggesting; MCP-native and ACP-compatible. ![GitHub Repo stars](https://img.shields.io/github/stars/aaif-goose/goose?style=social)
 - [Aider](https://github.com/Aider-AI/aider): AI pair programming in your terminal, with repo-map context and automatic commits per change. ![GitHub Repo stars](https://img.shields.io/github/stars/Aider-AI/aider?style=social)
 - [Crush](https://github.com/charmbracelet/crush): Charm's glamourous terminal coding agent, multi-model with LSP and MCP support. ![GitHub Repo stars](https://img.shields.io/github/stars/charmbracelet/crush?style=social)
 - [Qwen Code](https://github.com/QwenLM/qwen-code): Alibaba's CLI agent tuned for the Qwen-Coder models, with agentic repo understanding and workflow automation. ![GitHub Repo stars](https://img.shields.io/github/stars/QwenLM/qwen-code?style=social)
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent): The research harness that popularised issue-to-patch automation, with a configurable agent-computer interface. ![GitHub Repo stars](https://img.shields.io/github/stars/SWE-agent/SWE-agent?style=social)
 - [mini-SWE-agent](https://github.com/SWE-agent/mini-swe-agent): The same idea in ~100 lines of Python — the reference implementation to read before writing your own harness. ![GitHub Repo stars](https://img.shields.io/github/stars/SWE-agent/mini-swe-agent?style=social)
-- [Claude Agent SDK (Python)](https://github.com/anthropics/claude-agent-sdk-python): Anthropic's SDK for building agents on the Claude Code harness — tool execution, sandboxing, hooks and stateful sessions. ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-agent-sdk-python?style=social)
-- [Claude Agent SDK (TypeScript)](https://github.com/anthropics/claude-agent-sdk-typescript): The TypeScript counterpart, for embedding the same harness in Node applications. ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-agent-sdk-typescript?style=social)
+
+## Harnesses & Agent SDKs
+
+The loop underneath everything above: model calls, tool dispatch, permissions, session state. You reach for this layer when no existing ADE does what you want and you are building your own — a custom coding agent, an in-house review bot, an orchestrator with opinions.
+
+Listed here because each one is a plausible foundation for an ADE. General-purpose agent frameworks aimed at things other than software development belong in [Awesome Agents](https://github.com/kyrolabs/awesome-agents) instead.
+
+- [Pi](https://github.com/earendil-works/pi): Unified LLM API, agent loop, TUI and a coding CLI, built on a deliberately tiny system prompt with lazily-loaded skills. Usable as-is, but the design intent is that you fork and rewire it. ![GitHub Repo stars](https://img.shields.io/github/stars/earendil-works/pi?style=social)
+- [Goose](https://github.com/aaif-goose/goose): Extensible on-machine agent that installs, executes and edits rather than only suggesting. MCP-native, ACP-compatible, and embeddable as a runtime rather than only a CLI. ![GitHub Repo stars](https://img.shields.io/github/stars/aaif-goose/goose?style=social)
+- [Agno](https://github.com/agno-agi/agno): Full-stack framework for building, running and managing agent platforms, with memory, knowledge and a control plane included. ![GitHub Repo stars](https://img.shields.io/github/stars/agno-agi/agno?style=social)
+- [LangGraph](https://github.com/langchain-ai/langgraph): Graph-structured agent runtime with durable execution, checkpointing and human-in-the-loop interrupts — the state machine most long-running agents eventually need. ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social)
+- [smolagents](https://github.com/huggingface/smolagents): Hugging Face's barebones library for agents that think in code — small enough to read end to end in an afternoon. ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/smolagents?style=social)
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python): Lightweight framework for multi-agent workflows with handoffs, guardrails and tracing. Also available for [TypeScript](https://github.com/openai/openai-agents-js). ![GitHub Repo stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=social)
+- [Mastra](https://github.com/mastra-ai/mastra): Modern TypeScript framework for agents and AI applications — workflows, agent memory, tool calling, evals and a local dev playground in one package. ![GitHub Repo stars](https://img.shields.io/github/stars/mastra-ai/mastra?style=social)
+- [Vercel AI SDK](https://github.com/vercel/ai): The TypeScript toolkit most agent UIs are built on — provider-agnostic model calls, tool loops and streaming primitives. ![GitHub Repo stars](https://img.shields.io/github/stars/vercel/ai?style=social)
+- [Pydantic AI](https://github.com/pydantic/pydantic-ai): Type-safe agent framework built on Pydantic, with structured outputs and dependency injection for production pipelines. ![GitHub Repo stars](https://img.shields.io/github/stars/pydantic/pydantic-ai?style=social)
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework): Successor to Semantic Kernel and AutoGen, for building, orchestrating and deploying agents and multi-agent workflows in .NET and Python. ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/agent-framework?style=social)
+- [VoltAgent](https://github.com/VoltAgent/voltagent): TypeScript agent framework with built-in LLM observability, so traces and evals are not bolted on afterwards. ![GitHub Repo stars](https://img.shields.io/github/stars/VoltAgent/voltagent?style=social)
+- [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python): Anthropic's SDK for building on the Claude Code harness — tool execution, sandboxing, hooks and stateful sessions. Also available for [TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript). ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-agent-sdk-python?style=social)
+- [Strands Harness SDK](https://github.com/strands-agents/harness-sdk): AWS's SDK for building an agent harness and controlling it end to end, rather than accepting a vendor's loop. ![GitHub Repo stars](https://img.shields.io/github/stars/strands-agents/harness-sdk?style=social)
+- [Cloudflare Agents](https://github.com/cloudflare/agents): Stateful agents on Durable Objects — hibernation between turns, WebSocket sessions and scheduled wake-ups at the edge. ![GitHub Repo stars](https://img.shields.io/github/stars/cloudflare/agents?style=social)
 
 ## Editor-native Agents
 
