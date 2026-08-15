@@ -100,6 +100,7 @@ Native and Electron/Tauri apps. Better for diff review, multi-pane layouts and a
 - [Sculptor](https://github.com/imbue-ai/sculptor): Imbue's agent workspace running each session in a container so agents can execute freely without touching your machine. ![GitHub Repo stars](https://img.shields.io/github/stars/imbue-ai/sculptor?style=social)
 - [Termic](https://github.com/simion/termic): Spawns the real `claude`, `codex`, `agy`, `copilot` and `grok` binaries rather than vendor SDKs, so inference rides the Pro/Max plan you already pay for. One git worktree per agent, an optional per-workspace macOS sandbox cage, prompt broadcast to every agent at once, and a work-done indicator per pane. ![GitHub Repo stars](https://img.shields.io/github/stars/simion/termic?style=social)
 - [Tempest](https://github.com/tempestai-dev/tempest): Keeps a local code-knowledge graph shared across every parallel session, so five agents do not each re-read the codebase from scratch — the project reports up to 64% less context consumption and 58% fewer tool calls. Worktree and branch per agent, built-in diff and PR, and per-OS process isolation (Job Objects on Windows, Seatbelt on macOS, bubblewrap on Linux). Note that agents are spawned permission-skipping by default, toggleable in settings. ![GitHub Repo stars](https://img.shields.io/github/stars/tempestai-dev/tempest?style=social)
+- [Orkas](https://github.com/Orkas-AI/Orkas): Local-first desktop AI workforce whose Commander coordinates specialist agents and external coding CLIs through one chat. ![GitHub Repo stars](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=social)
 
 ## Orchestrators — Web & Self-hosted
 
@@ -280,6 +281,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [Happy](https://github.com/slopus/happy) | 📱 Mobile + 🌐 | — (client) | Many | E2E encrypted remote control |
 | [Omnara](https://github.com/omnara-ai/omnara) | 📱 Mobile + 🌐 | — (client) | Many | Permission prompts routed to phone |
 | [ADE](https://github.com/arul28/ADE) | 🖥️ + 📱 + ⌨️ + 🌐 | — (synced sessions) | Many | Real-time session sync across every device |
+| [Orkas](https://github.com/Orkas-AI/Orkas) | 🖥️ Desktop | — | Many | Commander coordinates specialist agents and external coding CLIs |
 
 ---
 
