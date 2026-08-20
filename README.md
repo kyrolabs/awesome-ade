@@ -110,6 +110,7 @@ Browser-based, which means team-shareable and reachable from any device without 
 - [OpenHands](https://github.com/OpenHands/OpenHands): Self-hostable platform for software development agents — the agent gets a browser, a terminal and an editor, and you watch it work in a web UI. ![GitHub Repo stars](https://img.shields.io/github/stars/OpenHands/OpenHands?style=social)
 - [Open SWE](https://github.com/langchain-ai/open-swe): LangChain's cloud-sandboxed asynchronous coding agent, invoked from Slack, Linear or GitHub and returning a PR. ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/open-swe?style=social)
 - [ruflo](https://github.com/ruvnet/ruflo): Agent meta-harness for deploying coordinated multi-agent swarms and long-running autonomous workflows. ![GitHub Repo stars](https://img.shields.io/github/stars/ruvnet/ruflo?style=social)
+- [Operator](https://github.com/iishyfishyy/operator-oss): Local-first control room that runs many Claude Code or Codex sessions in parallel across projects — each task is its own session in an isolated git worktree, with diff review, branch sync and merge in the UI; driven by your existing agent login, no API key. ![GitHub Repo stars](https://img.shields.io/github/stars/iishyfishyy/operator-oss?style=social)
 
 ## Remote & Mobile Control
 
