@@ -155,6 +155,7 @@ Listed here because each one is a plausible foundation for an ADE. General-purpo
 - [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python): Anthropic's SDK for building on the Claude Code harness — tool execution, sandboxing, hooks and stateful sessions. Also available for [TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript). ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-agent-sdk-python?style=social)
 - [Strands Harness SDK](https://github.com/strands-agents/harness-sdk): AWS's SDK for building an agent harness and controlling it end to end, rather than accepting a vendor's loop. ![GitHub Repo stars](https://img.shields.io/github/stars/strands-agents/harness-sdk?style=social)
 - [Cloudflare Agents](https://github.com/cloudflare/agents): Stateful agents on Durable Objects — hibernation between turns, WebSocket sessions and scheduled wake-ups at the edge. ![GitHub Repo stars](https://img.shields.io/github/stars/cloudflare/agents?style=social)
+- [TrueForge](https://github.com/truefoundry/trueforge): Owns the whole execution loop — model calls, MCP tools with OAuth, git-backed `SKILL.md` packs, sandboxed execution, tool approvals, subagents, deferred tool loading and compaction — exposed three ways: a chat UI, an HTTP API with a TypeScript SDK, and an embeddable UI SDK. SQLite in local mode, Postgres and Redis once a team shares it. ![GitHub Repo stars](https://img.shields.io/github/stars/truefoundry/trueforge?style=social)
 
 ## Editor-native Agents
 
