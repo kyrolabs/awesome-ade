@@ -209,6 +209,7 @@ What the agent knows, what tools it can reach, and which model answers.
 - [claude-code-router](https://github.com/musistudio/claude-code-router): Routes the Claude Code harness to arbitrary model backends, with per-task routing rules and cost control. ![GitHub Repo stars](https://img.shields.io/github/stars/musistudio/claude-code-router?style=social)
 - [claude-code-templates](https://github.com/davila7/claude-code-templates): Large library of ready-made agents, commands, hooks, MCP configs and settings, installable per project. ![GitHub Repo stars](https://img.shields.io/github/stars/davila7/claude-code-templates?style=social)
 - [AgentAPI](https://github.com/coder/agentapi): One HTTP API in front of Claude Code, Goose, Aider, Codex and Copilot — the integration seam for building your own ADE surface. ![GitHub Repo stars](https://img.shields.io/github/stars/coder/agentapi?style=social)
+- [pond](https://github.com/tenequm/pond): Keeps whole sessions from twelve harnesses (Claude Code, Codex, opencode, pi and more) in a local directory or your own S3 bucket, searchable by agents over MCP and read-only SQL, and restorable into any client - so a session started in one tool or on one machine is recallable from another. ![GitHub Repo stars](https://img.shields.io/github/stars/tenequm/pond?style=social)
 
 ## Observability & Cost
 
