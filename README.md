@@ -70,6 +70,7 @@ Keyboard-driven mission control. You stay in the terminal; the tool handles sess
 - [ccmanager](https://github.com/kbwo/ccmanager): Coding-agent session manager across git worktrees and projects — carries conversation history and project state into new worktrees. Works with Claude Code, Gemini CLI, Codex CLI, Cursor Agent, Copilot CLI, Cline CLI, OpenCode and Kimi CLI. ![GitHub Repo stars](https://img.shields.io/github/stars/kbwo/ccmanager?style=social)
 - [agent-deck](https://github.com/asheshgoplani/agent-deck): One TUI over every session — groups, search, forking, git worktrees, cost tracking and a phone-controlled conductor for the whole fleet. ![GitHub Repo stars](https://img.shields.io/github/stars/asheshgoplani/agent-deck?style=social)
 - [ccswarm](https://github.com/nwiizo/ccswarm): Multi-agent orchestration with git worktree isolation and specialised roles for collaborative development. ![GitHub Repo stars](https://img.shields.io/github/stars/nwiizo/ccswarm?style=social)
+- [YYLO](https://github.com/yylo-dev/yylo): Command-line orchestrator for coding agents, repeatable workflows and receipt-backed repository changes — every task works in a dedicated branch/worktree behind typed validation and merge boundaries, with a risk-based merge queue handling review. ![GitHub Repo stars](https://img.shields.io/github/stars/yylo-dev/yylo?style=social)
 
 ## Orchestrators — tmux-native
 
@@ -284,6 +285,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [Omnara](https://github.com/omnara-ai/omnara) | 📱 Mobile + 🌐 | — (client) | Many | Permission prompts routed to phone |
 | [ADE](https://github.com/arul28/ADE) | 🖥️ + 📱 + ⌨️ + 🌐 | — (synced sessions) | Many | Real-time session sync across every device |
 | [Orkas](https://github.com/Orkas-AI/Orkas) | 🖥️ Desktop | — | Many | Commander coordinates specialist agents and external coding CLIs |
+| [YYLO](https://github.com/yylo-dev/yylo) | ⌨️ TUI | 🌲 worktree | Many | Typed task lifecycle, risk-based merge queue, receipts |
 
 ---
 
