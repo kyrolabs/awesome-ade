@@ -243,6 +243,7 @@ When the task leaves the repository: end-to-end testing, scraping, and driving r
 - [Stagehand](https://github.com/browserbase/stagehand): Production-grade AI browser automation on top of Playwright, mixing deterministic code with natural-language actions. ![GitHub Repo stars](https://img.shields.io/github/stars/browserbase/stagehand?style=social)
 - [Steel Browser](https://github.com/steel-dev/steel-browser): Open-source browser infrastructure for agents — session-backed automation, extraction, screenshots and PDFs behind an AI-native CLI. ![GitHub Repo stars](https://img.shields.io/github/stars/steel-dev/steel-browser?style=social)
 - [Cua](https://github.com/trycua/cua): Computer-use agent framework with high-performance macOS and Linux VMs for full-desktop automation. ![GitHub Repo stars](https://img.shields.io/github/stars/trycua/cua?style=social)
+- [Superagent](https://github.com/pungme/superagent-desktop): macOS desktop app that gives Claude Code and Codex a real browser to drive and an iOS Simulator to install and screenshot apps in, not a headless cloud session. ![GitHub Repo stars](https://img.shields.io/github/stars/pungme/superagent-desktop?style=social)
 
 ---
 
