@@ -135,6 +135,7 @@ The harnesses that orchestrators drive. Pick the orchestrator for the workflow, 
 - [Qwen Code](https://github.com/QwenLM/qwen-code): Alibaba's CLI agent tuned for the Qwen-Coder models, with agentic repo understanding and workflow automation. ![GitHub Repo stars](https://img.shields.io/github/stars/QwenLM/qwen-code?style=social)
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent): The research harness that popularised issue-to-patch automation, with a configurable agent-computer interface. ![GitHub Repo stars](https://img.shields.io/github/stars/SWE-agent/SWE-agent?style=social)
 - [mini-SWE-agent](https://github.com/SWE-agent/mini-swe-agent): The same idea in ~100 lines of Python — the reference implementation to read before writing your own harness. ![GitHub Repo stars](https://img.shields.io/github/stars/SWE-agent/mini-swe-agent?style=social)
+- [3code](https://github.com/capocasa/3code): The economical coding agent — token budget as a first-class constraint via chunked context, supersede-aware compaction, and aggressive caching; works with any OpenAI-compatible endpoint, benchmarked at 75% fewer tokens than OpenCode on a SWE-bench subset. ![GitHub Repo stars](https://img.shields.io/github/stars/capocasa/3code?style=social)
 
 ## Harnesses & Agent SDKs
 
