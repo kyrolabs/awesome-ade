@@ -70,6 +70,7 @@ Keyboard-driven mission control. You stay in the terminal; the tool handles sess
 - [ccmanager](https://github.com/kbwo/ccmanager): Coding-agent session manager across git worktrees and projects — carries conversation history and project state into new worktrees. Works with Claude Code, Gemini CLI, Codex CLI, Cursor Agent, Copilot CLI, Cline CLI, OpenCode and Kimi CLI. ![GitHub Repo stars](https://img.shields.io/github/stars/kbwo/ccmanager?style=social)
 - [agent-deck](https://github.com/asheshgoplani/agent-deck): One TUI over every session — groups, search, forking, git worktrees, cost tracking and a phone-controlled conductor for the whole fleet. ![GitHub Repo stars](https://img.shields.io/github/stars/asheshgoplani/agent-deck?style=social)
 - [ccswarm](https://github.com/nwiizo/ccswarm): Multi-agent orchestration with git worktree isolation and specialised roles for collaborative development. ![GitHub Repo stars](https://img.shields.io/github/stars/nwiizo/ccswarm?style=social)
+- [agent-manager](https://github.com/YoanWai/agent-manager): Runs your installed coding-agent CLIs unmodified, each in its own persistent tmux session, with live status, prompts sent without attaching, optional git worktrees, and a diff view whose line comments go back to the agent. ![GitHub Repo stars](https://img.shields.io/github/stars/YoanWai/agent-manager?style=social)
 
 ## Orchestrators — tmux-native
 
@@ -286,6 +287,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [ADE](https://github.com/arul28/ADE) | 🖥️ + 📱 + ⌨️ + 🌐 | — (synced sessions) | Many | Real-time session sync across every device |
 | [Orkas](https://github.com/Orkas-AI/Orkas) | 🖥️ Desktop | — | Many | Commander coordinates specialist agents and external coding CLIs |
 | [LoopTroop](https://github.com/looptroop-ai/looptroop) | 🌐 Web + ⌨️ CLI | 🌲 worktree | One active per project | Multi-model planning council, Ralph retries, review gates; npm/Homebrew/Scoop/Docker |
+| [agent-manager](https://github.com/YoanWai/agent-manager) | ⌨️ TUI | 🪟 tmux session + 🌲 worktree (optional) | Many | Installed CLIs run unmodified, diff line comments go back to the agent |
 
 ---
 
