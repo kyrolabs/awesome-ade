@@ -179,6 +179,7 @@ The headless end of the spectrum: no human at the terminal, work triggered by an
 - [codex-action](https://github.com/openai/codex-action): OpenAI's official Action for running Codex headlessly in CI. ![GitHub Repo stars](https://img.shields.io/github/stars/openai/codex-action?style=social)
 - [Cyrus](https://github.com/cyrusagents/cyrus): Watches Linear, GitHub and GitLab for issues assigned to it and works them to a PR. ![GitHub Repo stars](https://img.shields.io/github/stars/cyrusagents/cyrus?style=social)
 - [remote-swe-agents](https://github.com/aws-samples/remote-swe-agents): Serverless AWS control plane for long-running autonomous software agents. ![GitHub Repo stars](https://img.shields.io/github/stars/aws-samples/remote-swe-agents?style=social)
+- [Orbi](https://github.com/orbi-build/orbi): Self-hosted runner that picks up GitHub issues labelled `ai-ready`, opens a PR, has a separate session review it against the acceptance criteria, then merges and cuts a tagged release. ![GitHub Repo stars](https://img.shields.io/github/stars/orbi-build/orbi?style=social)
 
 ## Isolation & Sandboxing
 
