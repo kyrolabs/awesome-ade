@@ -102,6 +102,7 @@ Native and Electron/Tauri apps. Better for diff review, multi-pane layouts and a
 - [Termic](https://github.com/simion/termic): Spawns the real `claude`, `codex`, `agy`, `copilot` and `grok` binaries rather than vendor SDKs, so inference rides the Pro/Max plan you already pay for. One git worktree per agent, an optional per-workspace macOS sandbox cage, prompt broadcast to every agent at once, and a work-done indicator per pane. ![GitHub Repo stars](https://img.shields.io/github/stars/simion/termic?style=social)
 - [Tempest](https://github.com/tempestai-dev/tempest): Keeps a local code-knowledge graph shared across every parallel session, so five agents do not each re-read the codebase from scratch — the project reports up to 64% less context consumption and 58% fewer tool calls. Worktree and branch per agent, built-in diff and PR, and per-OS process isolation (Job Objects on Windows, Seatbelt on macOS, bubblewrap on Linux). Note that agents are spawned permission-skipping by default, toggleable in settings. ![GitHub Repo stars](https://img.shields.io/github/stars/tempestai-dev/tempest?style=social)
 - [Orkas](https://github.com/Orkas-AI/Orkas): Local-first desktop AI workforce whose Commander coordinates specialist agents and external coding CLIs through one chat. ![GitHub Repo stars](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=social)
+- [WSP](https://github.com/wsp-labs/wsp): Agentic development environment for orchestrating different coding agents across machines and cloud workspaces. It syncs agent memory, skills, MCP servers, plugins, tools and configuration into each workspace, preserving the agent's context as its environment expands. Developers and agents can coordinate threads through the desktop app, CLI or MCP. ![GitHub Repo stars](https://img.shields.io/github/stars/wsp-labs/wsp?style=social)
 
 ## Orchestrators — Web & Self-hosted
 
@@ -279,6 +280,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [Dorothy](https://github.com/Charlie85270/Dorothy) | 🖥️ Desktop | 🌲 worktree | Many | Kanban + automations + MCP |
 | [parallel-code](https://github.com/johannesjo/parallel-code) | 🖥️ Desktop | 🌲 worktree | Many | Built-in diff and merge |
 | [CodexMonitor](https://github.com/Dimillian/CodexMonitor) | 🖥️ Desktop | 🌲 worktree | Many | Codex-focused, native macOS |
+| [WSP](https://github.com/wsp-labs/wsp) | 🖥️ Desktop + ⌨️ CLI | 🌲 worktree (optional) | Many | MCP exposes the same orchestration core; coordinates agents across machines and cloud workspaces |
 | [Vibe Kanban](https://github.com/BloopAI/vibe-kanban) | 🌐 Web | 🌲 worktree | Many | Board-driven, agent per card |
 | [gastown](https://github.com/gastownhall/gastown) | 🌐 Web | 🌲 worktree | 20–30 | Coordinator + merge queue |
 | [OpenHands](https://github.com/OpenHands/OpenHands) | 🌐 Web | 📦 container | Many | Browser + terminal + editor per agent |
