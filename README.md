@@ -228,6 +228,7 @@ Agents generate more diff than a human can read. The bottleneck moves to review.
 
 - [PR-Agent](https://github.com/The-PR-Agent/pr-agent): Automated PR description, review and code suggestions, runnable from CI or as a bot on every pull request. ![GitHub Repo stars](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=social)
 - [claude-code-security-review](https://github.com/anthropics/claude-code-security-review): Anthropic's security-focused review Action — reasons about the semantics of a diff rather than pattern-matching it, with false-positive filtering. ![GitHub Repo stars](https://img.shields.io/github/stars/anthropics/claude-code-security-review?style=social)
+- [Crit](https://github.com/tomasz-tomczyk/crit): Local browser review of coding agents' plans, code diffs, HTML artifacts and running apps, with inline comments returned to the agent. ![GitHub Repo stars](https://img.shields.io/github/stars/tomasz-tomczyk/crit?style=social)
 
 For human-in-the-loop approval gates inside the agent loop itself, see [CodeLayer (HumanLayer)](#orchestrators--desktop) above.
 
