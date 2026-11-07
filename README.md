@@ -103,6 +103,7 @@ Native and Electron/Tauri apps. Better for diff review, multi-pane layouts and a
 - [Tempest](https://github.com/tempestai-dev/tempest): Keeps a local code-knowledge graph shared across every parallel session, so five agents do not each re-read the codebase from scratch — the project reports up to 64% less context consumption and 58% fewer tool calls. Worktree and branch per agent, built-in diff and PR, and per-OS process isolation (Job Objects on Windows, Seatbelt on macOS, bubblewrap on Linux). Note that agents are spawned permission-skipping by default, toggleable in settings. ![GitHub Repo stars](https://img.shields.io/github/stars/tempestai-dev/tempest?style=social)
 - [Orkas](https://github.com/Orkas-AI/Orkas): Local-first desktop AI workforce whose Commander coordinates specialist agents and external coding CLIs through one chat. ![GitHub Repo stars](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=social)
 - [WSP](https://github.com/wsp-labs/wsp): Agentic development environment for orchestrating different coding agents across machines and cloud workspaces. It syncs agent memory, skills, MCP servers, plugins, tools and configuration into each workspace, preserving the agent's context as its environment expands. Developers and agents can coordinate threads through the desktop app, CLI or MCP. ![GitHub Repo stars](https://img.shields.io/github/stars/wsp-labs/wsp?style=social)
+- [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator): Open-source (Apache-2.0) desktop app for macOS, Windows and Linux where an orchestrator agent splits the work across 38 agent harnesses (Claude Code, Codex, Cursor and more), each worker in its own git worktree. A Kanban board follows every PR through CI and review and sends failed checks and review comments back to the agent that owns the branch, and iOS and Android apps let you check on and answer sessions remotely. ![GitHub Repo stars](https://img.shields.io/github/stars/OrchestratorInc/agent-orchestrator?style=social)
 
 ## Orchestrators — Web & Self-hosted
 
@@ -292,6 +293,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [LoopTroop](https://github.com/looptroop-ai/looptroop) | 🌐 Web + ⌨️ CLI | 🌲 worktree | One active per project | Multi-model planning council, Ralph retries, review gates; npm/Homebrew/Scoop/Docker |
 | [agent-manager](https://github.com/YoanWai/agent-manager) | ⌨️ TUI | 🪟 tmux session + 🌲 worktree (optional) | Many | Installed CLIs run unmodified, diff line comments go back to the agent |
 | [intentic](https://github.com/intentic/intentic) | 🌐 Web + 🖥️ Desktop | 📦 container + 🌲 worktree | Many | Runs on your machine and survives a closed browser; diff review before a change lands |
+| [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 🖥️ Desktop + 📱 | 🌲 worktree | Many | 38 agent harnesses; CI failures and review comments go back to the owning agent; iOS/Android remote control |
 
 ---
 
