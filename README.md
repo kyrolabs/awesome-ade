@@ -103,6 +103,7 @@ Native and Electron/Tauri apps. Better for diff review, multi-pane layouts and a
 - [Tempest](https://github.com/tempestai-dev/tempest): Keeps a local code-knowledge graph shared across every parallel session, so five agents do not each re-read the codebase from scratch — the project reports up to 64% less context consumption and 58% fewer tool calls. Worktree and branch per agent, built-in diff and PR, and per-OS process isolation (Job Objects on Windows, Seatbelt on macOS, bubblewrap on Linux). Note that agents are spawned permission-skipping by default, toggleable in settings. ![GitHub Repo stars](https://img.shields.io/github/stars/tempestai-dev/tempest?style=social)
 - [Orkas](https://github.com/Orkas-AI/Orkas): Local-first desktop AI workforce whose Commander coordinates specialist agents and external coding CLIs through one chat. ![GitHub Repo stars](https://img.shields.io/github/stars/Orkas-AI/Orkas?style=social)
 - [WSP](https://github.com/wsp-labs/wsp): Agentic development environment for orchestrating different coding agents across machines and cloud workspaces. It syncs agent memory, skills, MCP servers, plugins, tools and configuration into each workspace, preserving the agent's context as its environment expands. Developers and agents can coordinate threads through the desktop app, CLI or MCP. ![GitHub Repo stars](https://img.shields.io/github/stars/wsp-labs/wsp?style=social)
+- [Dodaios](https://github.com/Dodaios/Dodaios) (formerly Personal Jarvis): Desktop app for Windows, macOS and Linux that runs installed coding CLIs such as Claude Code, Codex and OpenCode side by side in live terminal panes with call signs (T1, T2), steered by voice or chat, with diffs, an editor and Git next to the panes. ![GitHub Repo stars](https://img.shields.io/github/stars/Dodaios/Dodaios?style=social)
 
 ## Orchestrators — Web & Self-hosted
 
@@ -293,6 +294,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [LoopTroop](https://github.com/looptroop-ai/looptroop) | 🌐 Web + ⌨️ CLI | 🌲 worktree | One active per project | Multi-model planning council, Ralph retries, review gates; npm/Homebrew/Scoop/Docker |
 | [agent-manager](https://github.com/YoanWai/agent-manager) | ⌨️ TUI | 🪟 tmux session + 🌲 worktree (optional) | Many | Installed CLIs run unmodified, diff line comments go back to the agent |
 | [intentic](https://github.com/intentic/intentic) | 🌐 Web + 🖥️ Desktop | 📦 container + 🌲 worktree | Many | Runs on your machine and survives a closed browser; diff review before a change lands |
+| [Dodaios](https://github.com/Dodaios/Dodaios) | 🖥️ Desktop | shared folder (optional worktree workspace) | Many | Live terminal panes with call signs, steered by voice or chat |
 
 ---
 
