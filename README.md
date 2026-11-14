@@ -79,6 +79,7 @@ tmux turns out to be an excellent agent substrate: sessions survive disconnects,
 - [CLI Agent Orchestrator](https://github.com/awslabs/cli-agent-orchestrator): AWS Labs multi-agent orchestration for coding CLIs — Claude Code, Kiro, Codex and more, each coordinated inside isolated tmux sessions. ![GitHub Repo stars](https://img.shields.io/github/stars/awslabs/cli-agent-orchestrator?style=social)
 - [dmux](https://github.com/standardagents/dmux): Dev agent multiplexer pairing coding agents with git worktrees over tmux, one pane per task. ![GitHub Repo stars](https://img.shields.io/github/stars/standardagents/dmux?style=social)
 - [amux](https://github.com/mixpeek/amux): Single-file, tmux-native control plane — run, monitor and orchestrate dozens of parallel Claude Code, Codex and Gemini sessions from one web dashboard or your phone, with self-healing sessions. ![GitHub Repo stars](https://img.shields.io/github/stars/mixpeek/amux?style=social)
+- [Muxflow](https://github.com/gal064/muxflow): Remote-first tmux IDE for coding agents. A desktop and Android app over tmux sessions on your own machines and SSH hosts, with notifications on desk and phone when Codex, Claude Code or pi blocks or finishes, voice replies, screenshot paste over SSH, and files, Git and ports per host. ![GitHub Repo stars](https://img.shields.io/github/stars/gal064/muxflow?style=social)
 
 ## Orchestrators — Desktop
 
@@ -297,6 +298,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [intentic](https://github.com/intentic/intentic) | 🌐 Web + 🖥️ Desktop | 📦 container + 🌲 worktree | Many | Runs on your machine and survives a closed browser; diff review before a change lands |
 | [Dodaios](https://github.com/Dodaios/Dodaios) | 🖥️ Desktop | shared folder (optional worktree workspace) | Many | Live terminal panes with call signs, steered by voice or chat |
 | [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 🖥️ Desktop + 📱 | 🌲 worktree | Many | CI failures and review comments go back to the owning agent |
+| [Muxflow](https://github.com/gal064/muxflow) | 🪟 tmux + 🖥️ Desktop + 📱 | 🪟 tmux session | Many | Several SSH hosts side by side; agent notifications and voice replies on the phone |
 
 ---
 
