@@ -316,6 +316,8 @@ Not eligible for this list — it is an open-source list — but they define the
 - **[Kiro](https://kiro.dev/)** — AWS's spec-driven agentic IDE.
 - **[Google Antigravity](https://antigravity.google/)** — Agent-first IDE built around a browser-and-editor agent manager.
 - **[Jules](https://jules.google/)** — Google's asynchronous coding agent working from GitHub issues.
+- **[Clairvoyance](https://www.clairvoyanceai.com/)** — Stardock's Desktop and web workspace that runs and supervises multiple coding agents (Claude Code, Codex, Copilot, Gemini) and local models in parallel, with persistent per-project memory and self-directed Missions. Core app free, proprietary.
+
 
 ## Related Lists
 
