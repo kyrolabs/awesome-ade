@@ -117,6 +117,7 @@ Browser-based, which means team-shareable and reachable from any device without 
 - [ruflo](https://github.com/ruvnet/ruflo): Agent meta-harness for deploying coordinated multi-agent swarms and long-running autonomous workflows. ![GitHub Repo stars](https://img.shields.io/github/stars/ruvnet/ruflo?style=social)
 - [LoopTroop](https://github.com/looptroop-ai/looptroop): Local orchestrator with a web UI and CLI for unattended coding runs in isolated git worktrees, with multi-model consensus planning, clean-context retries, and human approval gates. ![GitHub Repo stars](https://img.shields.io/github/stars/looptroop-ai/looptroop?style=social)
 - [intentic](https://github.com/intentic/intentic): Self-hosted web workspace that runs agents in parallel inside a sandbox container on your own machine, one git worktree per conversation. Runs keep going with the browser closed, any browser or phone opens the same board, and nothing lands in your tree until you have reviewed the diff. ![GitHub Repo stars](https://img.shields.io/github/stars/intentic/intentic?style=social)
+- [Holon](https://github.com/holon-run/holon): Self-hosted, local-first AI assistant workbench and Rust agent runtime that runs tasks across isolated git worktrees and persistent workspaces, with event-driven wait/wake, explicit trust boundaries, Web GUI, TUI, macOS, and iOS/Android remote clients. ![GitHub Repo stars](https://img.shields.io/github/stars/holon-run/holon?style=social)
 
 ## Remote & Mobile Control
 
@@ -297,6 +298,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [intentic](https://github.com/intentic/intentic) | 🌐 Web + 🖥️ Desktop | 📦 container + 🌲 worktree | Many | Runs on your machine and survives a closed browser; diff review before a change lands |
 | [Dodaios](https://github.com/Dodaios/Dodaios) | 🖥️ Desktop | shared folder (optional worktree workspace) | Many | Live terminal panes with call signs, steered by voice or chat |
 | [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 🖥️ Desktop + 📱 | 🌲 worktree | Many | CI failures and review comments go back to the owning agent |
+| [Holon](https://github.com/holon-run/holon) | 🌐 Web + ⌨️ TUI + 🖥️ macOS + 📱 Mobile | 🌲 worktree | Many | Self-owned Rust daemon; persistent WorkItems, event-driven wait/wake, explicit trust boundaries |
 
 ---
 
