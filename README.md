@@ -105,6 +105,7 @@ Native and Electron/Tauri apps. Better for diff review, multi-pane layouts and a
 - [WSP](https://github.com/wsp-labs/wsp): Agentic development environment for orchestrating different coding agents across machines and cloud workspaces. It syncs agent memory, skills, MCP servers, plugins, tools and configuration into each workspace, preserving the agent's context as its environment expands. Developers and agents can coordinate threads through the desktop app, CLI or MCP. ![GitHub Repo stars](https://img.shields.io/github/stars/wsp-labs/wsp?style=social)
 - [Dodaios](https://github.com/Dodaios/Dodaios) (formerly Personal Jarvis): Desktop app for Windows, macOS and Linux that runs installed coding CLIs such as Claude Code, Codex and OpenCode side by side in live terminal panes with call signs (T1, T2), steered by voice or chat, with diffs, an editor and Git next to the panes. ![GitHub Repo stars](https://img.shields.io/github/stars/Dodaios/Dodaios?style=social)
 - [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator): An orchestrator agent splits the work across parallel agents, each in its own git worktree, and sends failed CI checks and review comments back to the agent that owns the PR. iOS and Android apps for checking in on sessions remotely. ![GitHub Repo stars](https://img.shields.io/github/stars/OrchestratorInc/agent-orchestrator?style=social)
+- [Codealong](https://github.com/codealong/codealong): Free, open-source (Apache-2.0) Tauri desktop app that watches the coding agent sessions you already run across terminals and desktop apps (Claude Code, Codex, OpenCode, Antigravity, Cursor) on one board by repo, worktree, and PR, with MacBook notch approvals, automated draft PR reviews, plan-limit tracking, and peer-to-peer multi-machine sync. ![GitHub Repo stars](https://img.shields.io/github/stars/codealong/codealong?style=social)
 
 ## Orchestrators — Web & Self-hosted
 
@@ -297,6 +298,7 @@ Orchestrators only — the tools you would actually choose between. "Isolation" 
 | [intentic](https://github.com/intentic/intentic) | 🌐 Web + 🖥️ Desktop | 📦 container + 🌲 worktree | Many | Runs on your machine and survives a closed browser; diff review before a change lands |
 | [Dodaios](https://github.com/Dodaios/Dodaios) | 🖥️ Desktop | shared folder (optional worktree workspace) | Many | Live terminal panes with call signs, steered by voice or chat |
 | [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 🖥️ Desktop + 📱 | 🌲 worktree | Many | CI failures and review comments go back to the owning agent |
+| [Codealong](https://github.com/codealong/codealong) | 🖥️ Desktop + 📱 | 🌲 worktree (existing + new) | Many | Watches already-running CLIs and desktop apps, notch approvals, draft PR reviews, multi-machine sync |
 
 ---
 
